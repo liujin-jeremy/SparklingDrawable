@@ -16,8 +16,6 @@ import android.graphics.drawable.Drawable;
  */
 public class LightLightDrawable extends Drawable {
 
-      private static final String TAG = LightLightDrawable.class.getSimpleName();
-
       private Paint          mPaint      = new Paint( Paint.ANTI_ALIAS_FLAG );
       private LinearGradient mGradient;
       /**
