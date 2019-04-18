@@ -12,7 +12,7 @@ import android.util.AttributeSet;
 /**
  * @author Liujin 2019/4/3:14:39:47
  */
-public class LightLightTextView extends android.support.v7.widget.AppCompatTextView {
+public class SparklingTextView extends android.support.v7.widget.AppCompatTextView {
 
       private LinearGradient mGradient;
       private Matrix         mMatrix;
@@ -26,19 +26,19 @@ public class LightLightTextView extends android.support.v7.widget.AppCompatTextV
        */
       private int            mSpeed      = 5;
 
-      public LightLightTextView ( Context context ) {
+      public SparklingTextView ( Context context ) {
 
             super( context );
             init();
       }
 
-      public LightLightTextView ( Context context, AttributeSet attrs ) {
+      public SparklingTextView ( Context context, AttributeSet attrs ) {
 
             super( context, attrs );
             init();
       }
 
-      public LightLightTextView ( Context context, AttributeSet attrs, int defStyleAttr ) {
+      public SparklingTextView ( Context context, AttributeSet attrs, int defStyleAttr ) {
 
             super( context, attrs, defStyleAttr );
             init();
