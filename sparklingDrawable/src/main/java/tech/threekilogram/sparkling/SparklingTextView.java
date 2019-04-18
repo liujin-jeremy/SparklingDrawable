@@ -19,7 +19,7 @@ public class SparklingTextView extends android.support.v7.widget.AppCompatTextVi
       /**
        * 闪亮的颜色
        */
-      private int            mCoverColor = Color.parseColor( "#ff8c00" );
+      private int            mCoverColor = Color.parseColor( "#80E91E63" );
       private int            mDx;
       /**
        * 速度,cover每次增加的距离
@@ -29,22 +29,22 @@ public class SparklingTextView extends android.support.v7.widget.AppCompatTextVi
       public SparklingTextView ( Context context ) {
 
             super( context );
-            init();
+            init( context );
       }
 
       public SparklingTextView ( Context context, AttributeSet attrs ) {
 
             super( context, attrs );
-            init();
+            init( context );
       }
 
       public SparklingTextView ( Context context, AttributeSet attrs, int defStyleAttr ) {
 
             super( context, attrs, defStyleAttr );
-            init();
+            init( context );
       }
 
-      private void init ( ) {
+      private void init ( Context context ) {
 
             mMatrix = new Matrix();
       }

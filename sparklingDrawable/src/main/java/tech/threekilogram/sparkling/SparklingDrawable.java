@@ -21,7 +21,7 @@ public class SparklingDrawable extends Drawable {
       /**
        * 闪亮的颜色
        */
-      private int            mCoverColor = Color.parseColor( "#80ff8c00" );
+      private int            mCoverColor = Color.parseColor( "#80E91E63" );
       private Matrix         mMatrix     = new Matrix();
       private int            mDx;
       /**
