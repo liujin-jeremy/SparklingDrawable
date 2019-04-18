@@ -1,1 +1,1 @@
-include ':app', ':lightlight'
+include ':app', ':sparklingDrawable'

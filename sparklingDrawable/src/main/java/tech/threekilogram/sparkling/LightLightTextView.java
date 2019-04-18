@@ -1,4 +1,4 @@
-package tech.threekilogram.lightlight;
+package tech.threekilogram.sparkling;
 
 import android.content.Context;
 import android.graphics.Canvas;

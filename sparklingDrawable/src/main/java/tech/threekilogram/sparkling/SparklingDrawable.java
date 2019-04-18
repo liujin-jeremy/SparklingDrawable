@@ -1,4 +1,4 @@
-package tech.threekilogram.lightlight;
+package tech.threekilogram.sparkling;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
@@ -14,7 +14,7 @@ import android.graphics.drawable.Drawable;
 /**
  * @author Liujin 2019/4/3:15:04:11
  */
-public class LightLightDrawable extends Drawable {
+public class SparklingDrawable extends Drawable {
 
       private Paint          mPaint      = new Paint( Paint.ANTI_ALIAS_FLAG );
       private LinearGradient mGradient;
@@ -29,7 +29,7 @@ public class LightLightDrawable extends Drawable {
        */
       private int            mSpeed      = 10;
 
-      public LightLightDrawable ( ) {
+      public SparklingDrawable ( ) {
 
             mPaint.setStyle( Style.FILL );
             mPaint.setColor( Color.BLACK );
