@@ -1,4 +1,4 @@
-package tech.threekilogram.sparkling;
+package tech.liujin.sparkling;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
