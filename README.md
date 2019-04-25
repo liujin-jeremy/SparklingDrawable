@@ -3,7 +3,7 @@
 ### 引入
 
 ```
-compile 'tech.liujin:sparklingDrawable:1.0.1'
+compile 'tech.liujin:sparkling:1.0.2'
 ```
 
 ### 效果图
